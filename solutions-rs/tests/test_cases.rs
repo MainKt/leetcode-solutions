@@ -53,3 +53,11 @@ fn add_two_number_case_1() {
         }))
     )
 }
+
+#[test]
+fn coin_change_case_1() {
+    let coins = vec![1, 2, 5];
+    let amount = 11;
+    let count = Solution::coin_change(coins, amount);
+    assert_eq!(count, 3);
+}
