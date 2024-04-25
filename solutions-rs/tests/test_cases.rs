@@ -61,3 +61,10 @@ fn coin_change_case_1() {
     let count = Solution::coin_change(coins, amount);
     assert_eq!(count, 3);
 }
+
+#[test]
+fn maximum_subarray_case_1() {
+    let nums = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
+    let max_sum = 6;
+    assert_eq!(Solution::max_sub_array(nums), max_sum);
+}
