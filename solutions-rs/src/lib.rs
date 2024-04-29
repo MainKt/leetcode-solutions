@@ -1,5 +1,6 @@
 pub mod add_two_numbers;
 pub mod coin_change;
+pub mod majority_element;
 pub mod maximum_subarray;
 pub mod merge;
 pub mod remove_duplicates_from_sorted_array;
