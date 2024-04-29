@@ -6,6 +6,7 @@ pub mod merge;
 pub mod remove_duplicates_from_sorted_array;
 pub mod remove_element;
 pub mod two_sum;
+pub mod valid_parentheses;
 pub mod valid_sudoku;
 
 pub struct Solution;

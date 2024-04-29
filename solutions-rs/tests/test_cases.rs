@@ -85,3 +85,9 @@ fn valid_sudoku_case_1() {
 
     assert!(Solution::is_valid_sudoku(board));
 }
+
+#[test]
+fn valid_parentheses_case_1() {
+    let parentheses = "()".to_string();
+    assert!(Solution::is_valid(parentheses));
+}
