@@ -91,3 +91,9 @@ fn valid_parentheses_case_1() {
     let parentheses = "()".to_string();
     assert!(Solution::is_valid(parentheses));
 }
+
+#[test]
+fn longest_increasing_subsequence_case_1() {
+    let nums = vec![10, 9, 2, 5, 3, 7, 101, 18];
+    assert_eq!(Solution::length_of_lis(nums), 3);
+}
