@@ -95,5 +95,38 @@ fn valid_parentheses_case_1() {
 #[test]
 fn longest_increasing_subsequence_case_1() {
     let nums = vec![10, 9, 2, 5, 3, 7, 101, 18];
-    assert_eq!(Solution::length_of_lis(nums), 3);
+    assert_eq!(Solution::length_of_lis(nums), 4);
+}
+
+#[test]
+fn longest_common_subsequence_case_1() {
+    let text1 = "abcde";
+    let text2 = "ace";
+
+    assert_eq!(
+        Solution::longest_common_subsequence(text1.into(), text2.into()),
+        3
+    );
+}
+
+#[test]
+fn longest_common_subsequence_case_2() {
+    let text1 = "bl";
+    let text2 = "yby";
+
+    assert_eq!(
+        Solution::longest_common_subsequence(text1.into(), text2.into()),
+        1
+    );
+}
+
+#[test]
+fn longest_common_subsequence_case_3() {
+    let text1 = "pmjghexybyrgzczy";
+    let text2 = "hafcdqbgncrcbihkd";
+
+    assert_eq!(
+        Solution::longest_common_subsequence(text1.into(), text2.into()),
+        4
+    );
 }

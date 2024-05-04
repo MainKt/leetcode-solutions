@@ -1,5 +1,6 @@
 pub mod add_two_numbers;
 pub mod coin_change;
+pub mod longest_common_subsequence;
 pub mod longest_increasing_subsequence;
 pub mod majority_element;
 pub mod maximum_subarray;
