@@ -7,6 +7,7 @@ pub mod maximum_subarray;
 pub mod merge;
 pub mod remove_duplicates_from_sorted_array;
 pub mod remove_element;
+pub mod roman_to_integer;
 pub mod two_sum;
 pub mod valid_palindrome;
 pub mod valid_parentheses;

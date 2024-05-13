@@ -130,3 +130,9 @@ fn longest_common_subsequence_case_3() {
         4
     );
 }
+
+#[test]
+fn roman_to_integer_case_1() {
+    let roman = "LVIII".to_string();
+    assert_eq!(Solution::roman_to_int(roman), 58);
+}
