@@ -136,3 +136,12 @@ fn roman_to_integer_case_1() {
     let roman = "LVIII".to_string();
     assert_eq!(Solution::roman_to_int(roman), 58);
 }
+
+#[test]
+fn longest_common_prefix_case_1() {
+    let strs: Vec<_> = vec!["flower", "flow", "flight"]
+        .iter()
+        .map(|s| s.to_string())
+        .collect();
+    assert_eq!(Solution::longest_common_prefix(strs), "fl".to_string());
+}
