@@ -1,6 +1,7 @@
 pub mod add_two_numbers;
 pub mod best_time_to_buy_and_sell_stock;
 pub mod coin_change;
+pub mod is_subsequence;
 pub mod length_of_last_word;
 pub mod longest_common_prefix;
 pub mod longest_common_subsequence;
